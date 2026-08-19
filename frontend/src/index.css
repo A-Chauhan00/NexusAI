@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+#root {
+      width: 100%;
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    animation: fadeIn 1.5s;
+    background-color: #06070d;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
