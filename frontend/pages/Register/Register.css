@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
      background: #06070d;
-      width: 300px;
+      width: 400px;
     max-width: 100%;
     box-sizing: border-box;
     padding: 24px;
@@ -133,7 +133,7 @@
 
     .register-form {
         width: 100%;
-        max-width: 400px;
+        max-width: 300px;
         padding: 20px 16px;
         box-sizing: border-box;
     }
