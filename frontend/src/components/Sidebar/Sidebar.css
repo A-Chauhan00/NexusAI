@@ -273,6 +273,7 @@
 
 .rename-save {
     color: #00F5FF;
+    font-size: 16px;
 }
 
 .rename-save:hover {
@@ -281,6 +282,8 @@
 
 .rename-cancel {
     color: rgb(233, 44, 44);
+    font-size: 16px;
+    margin-left: 4px;
 }
 
 .rename-cancel:hover {

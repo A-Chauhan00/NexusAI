@@ -6,6 +6,8 @@ import { FaPlus } from "react-icons/fa";
 import { RiDeleteBin5Fill } from "react-icons/ri";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { MdEdit } from "react-icons/md";
+import { FaCheck } from "react-icons/fa";
+import { MdOutlineCancel } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 const Sidebar = ({ extended, setExtended, user }) => {
 
@@ -131,7 +133,7 @@ const Sidebar = ({ extended, setExtended, user }) => {
                                                         className="rename-save"
                                                         onClick={() => handleRename(chat._id)}
                                                     >
-                                                        ✓
+                                                        <FaCheck/>
                                                     </button>
 
                                                     <button
@@ -141,7 +143,7 @@ const Sidebar = ({ extended, setExtended, user }) => {
                                                             setEditingTitle("");
                                                         }}
                                                     >
-                                                        ✕
+                                                        < MdOutlineCancel/>
                                                     </button>
 
                                                 </div>

@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState ,useRef,useContext} from "react";
 import { createChat, getChats, getChat, deleteChat, sendMessage,sendGuestMessage } from '../api/chatApi.js';
 import { AuthContext } from "./AuthContext.jsx";
+import api from "../api/axios.js";
 
 export const Context = createContext();
 
@@ -283,15 +284,10 @@ const renameChat = async (chatId, newTitle) => {
             return;
         }
 
-        const response = await axios.put(
-            `${API_URL}/api/chats/${chatId}`,
+        const response = await api.put(
+            `/chats/${chatId}`,
             {
                 title: newTitle.trim()
-            },
-            {
-                headers: {
-                    Authorization: `Bearer ${localStorage.getItem("token")}`
-                }
             }
         );
 
@@ -299,7 +295,10 @@ const renameChat = async (chatId, newTitle) => {
             setChats(prevChats =>
                 prevChats.map(chat =>
                     chat._id === chatId
-                        ? { ...chat, title: response.data.chat.title }
+                        ? {
+                            ...chat,
+                            title: response.data.chat.title
+                        }
                         : chat
                 )
             );

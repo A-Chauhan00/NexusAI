@@ -426,6 +426,11 @@
 
 }
 
+.delete-modal-buttons .cancel-button:hover{
+   background-color: #e6f1ff;
+   color: #06070d;
+}
+
 .delete-modal-buttons .delete-button{
     padding: 5px 10px;
     font-family: 'Roboto Mono',sans-serif;
@@ -434,6 +439,11 @@
     color: rgb(233, 44, 44);
     background-color: #06070d;
 
+}
+
+.delete-modal-buttons .delete-button:hover{
+  background-color:rgb(233, 44, 44) ;
+  color: #e6f1ff;
 }
 
 @keyframes nexusIntro {
