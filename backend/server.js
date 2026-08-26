@@ -27,15 +27,17 @@ app.use("/api/auth",authRoutes);
 app.use("/api/guest", guestRoutes);
 
 
-const PORT =process.env.PORT || 5000;
-const startServer= async()=>{
-    await connectDB();
-    app.listen(PORT,()=>{
-    console.log(`server started at ${PORT}`);
-    })
-}
+await connectDB();
+export default app;
+// const PORT =process.env.PORT || 5000;
+// const startServer= async()=>{
+//     await connectDB();
+//     app.listen(PORT,()=>{
+//     console.log(`server started at ${PORT}`);
+//     })
+// }
 
-startServer();
+// startServer();
 
 
 
