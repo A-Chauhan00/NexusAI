@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://nexus-ai-theta-ivory.vercel.app/api/:path*"
+      "destination": "https://nexus-ai-chats-api.vercel.app/api/:path*"
     },
     {
       "source": "/(.*)",
