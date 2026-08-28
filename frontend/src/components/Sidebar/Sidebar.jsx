@@ -104,6 +104,7 @@ const Sidebar = ({ extended, setExtended, user }) => {
                                         <div
                                             key={chat._id}
                                             className={`recent-entry ${activeChat === chat._id ? "active-chat" : ""}`}
+                                            onClick={() => selectChat(chat._id)}
                                         >
 
                                             {editingChatId === chat._id ? (
@@ -150,7 +151,7 @@ const Sidebar = ({ extended, setExtended, user }) => {
 
                                             ) : (
 
-                                                <p onClick={() => selectChat(chat._id)}>
+                                                <p>
                                                     {chat.title.slice(0, 18)}
                                                     {chat.title.length > 18 ? "..." : ""}
                                                 </p>
