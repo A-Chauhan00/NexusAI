@@ -47,27 +47,15 @@ NexusAI is a full-stack AI chatbot application built using MERN stack and powere
 ## 📸 Screenshots
 
 ### Homepage & Authentication
-![NexusAI Homepage](<div align="center">
-  <img src="frontend\public\assets\NexusAI_Desktop_HOMEPAGE.png" alt="Chat Interface" width="700" />
-</div>) 
-![NexusAI Login](<div align="center">
-  <img src="frontend\public\assets\NexusAI_Login.png" alt="Chat Interface" width="700" />
-</div>) 
+<div align="center"><img src="frontend\public\assets\NexusAI_Desktop_HOMEPAGE.png" alt="Chat Interface" width="700" /> 
+<div align="center"><img src="frontend\public\assets\NexusAI_Login.png" alt="Chat Interface" width="700" />
 
 ### Real-Time Chat Interface
-![NexusAI Chat Interface](<div align="center">
-  <img src="frontend\public\assets\NexusAI_Chat_Interface.png" alt="Chat Interface" width="700" />
-</div>) 
+<div align="center"><img src="frontend\public\assets\NexusAI_Chat_Interface.png" alt="Chat Interface" width="700" />
 
 ### Ui on Mobile
-![Mobile Chat Interface](<div align="center">
-  <img src="frontend\public\assets\NexusAI_Chat_Mobile_Chat_interface.png" alt="Mobile Chat Interface" width="300" />
-</div>) 
-![Mobile Chat Sidebar](
-    <div align="center">
-  <img src="frontend\public\assets\NexusAI_Mobile_Sidebar.png" alt="Mobile Chat Interface" width="300" />
-</div>
-) 
+<div align="center"><img src="frontend\public\assets\NexusAI_Chat_Mobile_Chat_interface.png" alt="Mobile Chat Interface" width="250" />
+<div align="center"><img src="frontend\public\assets\NexusAI_Mobile_Sidebar.png" alt="Mobile Chat Interface" width="250" />
 
 ---
 
